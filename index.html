@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">CYBER_ABI...
+    </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#Achivement">Certificates</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      
+    </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">ABIRAJ M</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assert/profile.jpg" alt="myprofile_picture" class="top_pic" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">ABIRAJ M</h1>
+        <p class="section__text__p2">CYBER SECURITY ANALYST</p>
+        <p class="section__text__p2">BUG HUNTER</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assert/ABIRAJ_CySec(Resume).pdf')">
+            <h3>Open CV</h3>
+          </button>
+          <button class="btn btn-color-1" onclick="navigateAndToggle('#contact')">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assert/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="window.open('https://linkedin.com/in/abiraj007', '_blank');"
+            style="cursor: pointer;"
+          />
+
+          <img
+            src="./assert/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="window.open('https://github.com/hackabi003', '_blank');"
+            style="cursor: pointer;"
+          />
+          
+          <img
+            src="./assert/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+            onclick="window.location.href='mailto:abirajms73@gmail.com?subject=Hello&body=I%20would%20like%20to%20discuss...';"
+          />
+
+          <!-- /> -->
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assert/about_pic.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+            
+            <br class="details-container">
+              <img
+                src="./assert/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3 style="font-size: 24px;">Education</h3>
+                <p style="font-size: 18px;"><span style="font-weight: bold; color:black"> Bachelor Of Science In <span style="font-weight: bold ;color:rgb(253, 5, 5)">Computer Science </span></span><br /> Arulmigu Kalasalingam college of Arts And Science-Krishnankoil
+                   <br>(Afliated By Madurai Kamaraj University) <br> SEP 2020 - APRIL2023
+                </p>
+                <br>
+                <p style="font-size: 18px;"><span style="font-weight: bold; color:black"> Master Of Science In <span style="font-weight: bold ;color:rgb(255, 3, 3)">Cyber Security</span></span><br /> Bharathiyar University - Coimbatore
+                  <br> SEP 2023 - APRIL2025
+                  
+               </p>
+              </div>
+                         
+            
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assert/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1><br>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Tools Experience </h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assert/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>BURBSUITE</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assert/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>METASPLOIT</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assert/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>OWASP ZAP</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assert/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>WIRESHARK</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assert/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>NMAP(GENMAP)</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assert/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>OTHERS..</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assert/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PYTHON</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assert/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JAVASCRIPT</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assert/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assert/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git And GitHub</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assert/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+     
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1><br>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assert/web2.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/hackabi003/Log_Analysis'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/hackabi003/Log_Analysis'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assert/web3.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Project Two</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/hackabi003/Getting_Wifi_Details'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/hackabi003/Getting_Wifi_Details'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assert/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+      
+    </section>
+  <section id="Achivement">
+    <p class="section__text__p1"></p>
+    <h1 class="title">Certificates</h1><br><br>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img
+          src="./assert/demo.jpg"
+          alt="Profile picture"
+          class="about-pic"
+        />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+          
+            <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 0;">
+              <!-- Certificate Image -->
+              <img src="./assert/certi-img.jpeg" alt="Certificate" style="width: 100px; height: auto; display: block; margin: 20px auto;">
+              
+              <!-- Certificate Section -->
+              <div class="certificates-section" 
+                   style="margin-top: 5px; padding: 5px; background: #fff; border-radius: 5px; 
+                          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); max-width: 800px; margin: 0 auto;">
+                <!-- Title -->
+                <h3 style="font-size: 24px; color: #2c3e50; margin-bottom: 10px; text-align: center;">Certificates from Organisations</h3>
+                
+                <!-- Certificate List -->
+                <ul class="certificate-list" style="list-style-type: none; padding: 0; margin: 0; text-align: left">
+                  <li style="font-size: 18px; margin: 8px 0; color: #555;">Sep 2023 - Oct 2023 <a href="https://www.credly.com/badges/9923bf49-8be6-4545-8733-daedbd639560" style="color: #0952f1";> Cisco Basic Networking </a></li>
+                  <li style="font-size: 18px; margin: 8px 0; color: #555;">July 2024 - Sep 2024 <a href="https://www.credly.com/badges/567e36c2-1a4c-472d-971f-2c7b45a4c525" style="color: #0952f1";> Cisco Ethical Hacking </a></li>
+                  <li style="font-size: 18px; margin: 8px 0; color: #555;">Aug 2024 - Sep 2024 <a href="https://learn.kodekloud.com/certificate/80861725-aa49-453b-9348-c25fddf40ba1" style="color: #0952f1";> Kodekloud Red Hat Certified System Administrator (RHCSA)</a></li>
+                  <li style="font-size: 18px; margin: 8px 0; color: #555;">Jun 2024 - Aug 2024 <a href="https://codered.eccouncil.org/certificate/8aee3121-c2f8-4214-a327-86857762bf1b" style="color: #0952f1";> EC-Council Ethical Hacking Essential</a></li>
+                  <li style="font-size: 18px; margin: 8px 0; color: #555;">Sep 2024 - Sep 2024 <a href="https://www.credly.com/badges/5798c4c2-b13e-4bf3-8f08-228ad0d46cbc" style="color: #0952f1";> OPSWAT Network Security Associate (OSNA)</a></li>
+                </ul>
+              </div>
+            </div>
+            
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assert/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:abirajms73@gmail.com?subject=Hello&body=I%20would%20like%20to%20discuss...">abirajms73@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assert/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://linkedin.com/in/abiraj007">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+       
+    <footer>
+      <div class="icons"><img
+        src="./assert/facebook.png"
+        alt="facebook icon"
+        class="icon contact-icon"
+      onclick="location.href='https://www.facebook.com/'"
+      />
+      
+      <div class="con"><img
+        src="./assert/twitter.jpg"
+        alt="twitter icon"
+        class="icon contact-icon"
+        onclick="location.href='https://twitter.com/settings/account?lang=en'"
+      /></div>
+      <div class="con1"><img
+        src="./assert/instagram.png"
+        alt="instagram icon"
+        class="icon contact-icon"
+        onclick="location.href='https://www.instagram.com/'"
+      /></div>
+      
+    </div>
+      
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#Achivement">Achivement</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 JARIBA. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
